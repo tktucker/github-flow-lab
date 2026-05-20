@@ -50,3 +50,5 @@ git push -u origin main
 ```
 
 That repo becomes the **upstream** for every exercise. `tktuckerphotos` forks it.
+## For contributors
+See the lab's `exercises/` directory for the full Github Flow walkthrough.
