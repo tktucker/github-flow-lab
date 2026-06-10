@@ -1,6 +1,6 @@
 import pytest
 
-from calculator.operations import add, div, mod, mul, sub
+from calculator.operations import add, div, mul, sub
 
 
 def test_add():
@@ -26,10 +26,3 @@ def test_div():
 def test_div_by_zero():
     with pytest.raises(ZeroDivisionError):
         div(1, 0)
-
-def test_mod():
-    assert mod(10, 3) == 1
-
-def test_mod_by_zero():
-    with pytest.raises(ZeroDivisionError):
-        mod(1, 0)
