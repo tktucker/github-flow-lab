@@ -9,7 +9,7 @@ OPS = {"+": add, "-": sub, "*": mul, "x": mul, "/": div}
 def main(argv: list[str] | None = None) -> int:
     argv = argv if argv is not None else sys.argv[1:]
     if len(argv) != 3:
-        print("usage: calculator <a> <op> <b>", file=sys.stderr)
+        print("usage: calculator <a> <op> <b>  (op: + - * x /)", file=sys.stderr)
         return 2
     a_raw, op, b_raw = argv
     try:
