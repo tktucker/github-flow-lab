@@ -5,6 +5,10 @@ Versioning follows [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+- CI now targets Python 3.12.
+- Sharpened docstring and CLI help wording.
+
 ### Added
 - `mod` operation and `%` CLI operator (#3).
 
