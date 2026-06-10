@@ -22,7 +22,3 @@ def div(a: float, b: float) -> float:
         raise ZeroDivisionError("division by zero")
     return a / b
 
-def mod(a: float, b: float) -> float:
-    if b == 0:
-        raise ZeroDivisionError("modulo by zero")
-    return a % b
