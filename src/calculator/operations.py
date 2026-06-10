@@ -6,8 +6,8 @@ This module is intentionally small. Exercises will have you add operations
 
 
 def add(a: float, b: float) -> float:
+    """Sum two numbers."""
     return a + b
-
 
 def sub(a: float, b: float) -> float:
     return a - b
