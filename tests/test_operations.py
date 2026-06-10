@@ -26,3 +26,6 @@ def test_div():
 def test_div_by_zero():
     with pytest.raises(ZeroDivisionError):
         div(1, 0)
+def test_chained_operations_via_python_api():
+    assert mul(add(2, 3), 4) == 20
+    assert div(sub(10, 4), 2) == 3
