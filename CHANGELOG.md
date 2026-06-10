@@ -5,6 +5,9 @@ Versioning follows [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- `mod` operation and `%` CLI operator (#3).
+
 ## [0.1.0] - initial
 
 ### Added
