@@ -5,7 +5,11 @@ This module is intentionally small. Exercises will have you add operations
 """
 
 
+#def add(a: float, b: float) -> float:
+#    return a + b
+
 def add(a: float, b: float) -> float:
+    """Return the sum of a and b."""
     return a + b
 
 
